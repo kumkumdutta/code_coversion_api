@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Converter App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Code Converter App</h1>
+  <div class="container">
+    <textarea id="codeInput" placeholder="Enter your code here..."></textarea>
+    <div style="display: flex;">
+        <button id="convertBtn">Code Convert</button>
+        <button id="debugBtn">Debug</button>
+        <button id="qualityCheckBtn">Quality Check</button>
+    </div>
+   
+    <select id="languageSelect">
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+      <option value="java">Java</option>
+      <!-- Add more languages as needed -->
+    </select>
+   
+    <div id="response" contenteditable="true"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
